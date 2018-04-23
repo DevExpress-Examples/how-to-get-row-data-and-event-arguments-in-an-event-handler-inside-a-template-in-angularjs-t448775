@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>DevExtreme Angular site</title>
+    <meta charset="utf-8" />
+    <link rel='stylesheet' type='text/css' href='css/styles.css' />
+    <link rel='stylesheet' type='text/css' href='css/dx.common.css' />
+    <link rel='stylesheet' type='text/css' href='css/dx.light.css' />
+    <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular-sanitize.js"></script>
+    <script type='text/javascript' src='js/dx.web.js'></script>
+    <script type="text/javascript" src="data.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body ng-controller="demoController">
+    <div dx-item-alias="itemData" dx-data-grid="grid">
+        <div data-options="dxTemplate : { name: 'buttonTemplate' } ">
+            <div dx-button="{ text: 'Get Info', onClick: buttonClick(itemData) }"></div>
+        </div>
+    </div>
+</body>
+
+</html>
