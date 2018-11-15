@@ -1,3 +1,7 @@
+<!-- default file list -->
+*Files to look at*:
+
+<!-- default file list end -->
 # How to get row data and event arguments in an event handler inside a template in AngularJS
 
 
