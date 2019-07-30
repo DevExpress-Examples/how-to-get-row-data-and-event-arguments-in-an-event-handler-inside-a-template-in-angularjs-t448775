@@ -4,7 +4,7 @@
 <!-- default file list end -->
 # How to get row data and event arguments in an event handler inside a template in AngularJS
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t448775)**
+**[[Run Online]](https://codecentral.devexpress.com/t448775/)**
 <!-- run online end -->
 
 
